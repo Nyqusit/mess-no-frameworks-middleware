@@ -18,6 +18,6 @@ to login as bill you will need to type "bill" in the left-most input box and the
 
 once you are logged in a input box will show up at the top of the page. you can write a messge and press enter to send it as the user you signed in as.
 
-you can click the logout button at the right of the page to logout. if you you logout you can choose to login as a different user.
+you can click the logout button at the right of the page to logout. if you logout you can choose to login as a different user.
 
 
