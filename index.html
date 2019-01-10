@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#login{
+			float:right;
+			margin-top:0px;
+		}
+		#compose{
+			
+		}
+		#logoutButtonWrap{
+			float:right;
+		}
+		#notVisable{
+			display:none;
+		}
+	</style>
+	<title>message</title>
+</head>
+<body>
+	<form method='POST' id="myForm">
+		<div id="login">
+			<input type="text" name="name">
+			<input type="text" name="password"> 
+			<input type="submit" name="submit">
+		</div>
+
+		<div id='compose'>
+			<input type="text" name="message">
+		</div>
+		
+		<div id="notVisable">
+			<input type="text" name="logout" id="logout">
+		</div>
+
+		<div id="logoutButtonWrap">
+			<button id="logoutButton">logout</button>
+		</div>
+
+	</form>
+</body>
+	<script>
+		let logoutButton = document.getElementById('logoutButton');
+		let logout = document.getElementById('logout');
+		let form = document.getElementById('myForm');
+
+		logoutButton.onclick =()=>{
+			logout.value = 'true';
+		}
+
+		
+	</script>
+</html>
