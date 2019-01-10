@@ -4,7 +4,7 @@ A simple messaging app built with node js. No frameworks or middleware are used
 I tried to make the most bare-bones messaging app that I could. The only bug that I noticed was the recreation of messsages when you refresh the page. 
 
 I decided to use my ipv4 address for the ip so I could open it on multiple computers at my residence so you will need to change 
-"10.0.0.114" in the listen function to your ipv4 adress or 127.0.0.1.
+"10.0.0.114" in the listen function to your ipv4 adress or "127.0.0.1" in the app.js file.
 
 You will need launch the js file with node.js to run this app.
 
